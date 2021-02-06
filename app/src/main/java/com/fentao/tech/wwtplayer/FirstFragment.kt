@@ -20,8 +20,12 @@ import com.fentao.tech.wwtplayer.widget.component.PlayerMonitor
 class FirstFragment : Fragment() {
     private val THUMB =
         "https://cms-bucket.nosdn.127.net/eb411c2810f04ffa8aaafc42052b233820180418095416.jpeg"
-    private val URL =
-        "https://livec.ali.huoxinglaike.com/live/beidanlaonanren.flv?auth_key=1612496758904-19951c36f7b14b918305e8dc52bddad0-0-d3e0371e232301661b7edb8b2ed672ae"
+//    private val URL =
+//        "https://livec.ali.huoxinglaike.com/live/beidanlaonanren.flv?auth_key=1612496758904-19951c36f7b14b918305e8dc52bddad0-0-d3e0371e232301661b7edb8b2ed672ae"
+//    private val URL = "http://ivi.bupt.edu.cn/hls/cctv6.m3u8";
+
+
+    private val URL = "https://livec.ali.huoxinglaike.com/live/laoniuqiu5f7481ac2940d_hd.flv?auth_key=1612598587422-91eb1573a7224095bd3dd1e7222f2fb6-0-88d6fa2f2beb502f2c699c2eb92ed478"
 
     var mVideoView:VideoView<AbstractPlayer>? = null;
 
