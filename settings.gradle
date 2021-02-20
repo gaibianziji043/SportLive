@@ -2,4 +2,4 @@ include ':player_ui'
 include ':player_java'
 include ':exo_player'
 include ':app'
-rootProject.name = "WWTPlayer"
+rootProject.name = "SportLive"

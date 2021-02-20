@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <Button
+        android:id="@+id/btn_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:text="LIVE"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_vod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_15"
+        android:text="VOD"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="199dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
