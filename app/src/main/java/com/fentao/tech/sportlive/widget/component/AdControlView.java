@@ -1,4 +1,4 @@
-package com.fentao.tech.wwtplayer.widget.component;
+package com.fentao.tech.sportlive.widget.component;
 
 import android.app.Activity;
 import android.content.Context;
@@ -17,7 +17,7 @@ import com.fentao.tech.player_java.controller.ControlWrapper;
 import com.fentao.tech.player_java.controller.IControlComponent;
 import com.fentao.tech.player_java.player.VideoView;
 import com.fentao.tech.player_java.utils.PlayerUtils;
-import com.fentao.tech.wwtplayer.R;
+import com.fentao.tech.sportlive.R;
 
 
 public class AdControlView extends FrameLayout implements IControlComponent, View.OnClickListener {

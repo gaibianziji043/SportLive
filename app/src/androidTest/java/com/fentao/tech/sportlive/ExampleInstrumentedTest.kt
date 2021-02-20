@@ -1,4 +1,4 @@
-package com.fentao.tech.wwtplayer
+package com.fentao.tech.sportlive
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

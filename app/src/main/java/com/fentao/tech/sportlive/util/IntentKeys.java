@@ -1,4 +1,4 @@
-package com.fentao.tech.wwtplayer.util;
+package com.fentao.tech.sportlive.util;
 
 public class IntentKeys {
 

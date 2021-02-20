@@ -1,4 +1,4 @@
-package com.fentao.tech.wwtplayer.widget.component;
+package com.fentao.tech.sportlive.widget.component;
 
 import android.view.View;
 import android.view.animation.Animation;
@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import com.fentao.tech.player_java.controller.ControlWrapper;
 import com.fentao.tech.player_java.controller.IControlComponent;
 import com.fentao.tech.player_java.utils.L;
-import com.fentao.tech.wwtplayer.util.Utils;
+import com.fentao.tech.sportlive.util.Utils;
 
 
 public class PlayerMonitor implements IControlComponent {

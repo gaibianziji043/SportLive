@@ -1,8 +1,6 @@
-package com.fentao.tech.wwtplayer
+package com.fentao.tech.sportlive
 
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
@@ -12,10 +10,10 @@ import com.fentao.tech.player_java.player.VideoView
 import com.fentao.tech.player_java.utils.L
 import com.fentao.tech.player_ui.StandardVideoController
 import com.fentao.tech.player_ui.component.*
-import com.fentao.tech.wwtplayer.widget.component.DebugInfoView
-import com.fentao.tech.wwtplayer.widget.component.PlayerMonitor
+import com.fentao.tech.sportlive.widget.component.DebugInfoView
+import com.fentao.tech.sportlive.widget.component.PlayerMonitor
 
-class MainActivity : AppCompatActivity() {
+class PlayerActivity : AppCompatActivity() {
     private val URL = "https://vfx.mtime.cn/Video/2019/03/14/mp4/190314223540373995.mp4"
 
     var mVideoView: VideoView<AbstractPlayer>? = null;

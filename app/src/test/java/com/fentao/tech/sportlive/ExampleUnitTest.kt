@@ -1,4 +1,4 @@
-package com.fentao.tech.wwtplayer
+package com.fentao.tech.sportlive
 
 import org.junit.Test
 

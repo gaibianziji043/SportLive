@@ -1,18 +1,10 @@
-package com.fentao.tech.wwtplayer
+package com.fentao.tech.sportlive
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.fragment.app.Fragment
-import com.fentao.tech.player_java.player.AbstractPlayer
-import com.fentao.tech.player_java.player.VideoView
-import com.fentao.tech.player_java.utils.L
-import com.fentao.tech.player_ui.StandardVideoController
-import com.fentao.tech.player_ui.component.*
-import com.fentao.tech.wwtplayer.widget.component.DebugInfoView
-import com.fentao.tech.wwtplayer.widget.component.PlayerMonitor
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.

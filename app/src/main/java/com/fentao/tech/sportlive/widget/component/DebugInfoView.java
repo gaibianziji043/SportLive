@@ -1,4 +1,4 @@
-package com.fentao.tech.wwtplayer.widget.component;
+package com.fentao.tech.sportlive.widget.component;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -17,7 +17,7 @@ import com.fentao.tech.exo_player.ExoMediaPlayerFactory;
 import com.fentao.tech.player_java.controller.ControlWrapper;
 import com.fentao.tech.player_java.controller.IControlComponent;
 import com.fentao.tech.player_java.player.AndroidMediaPlayerFactory;
-import com.fentao.tech.wwtplayer.util.Utils;
+import com.fentao.tech.sportlive.util.Utils;
 
 
 /**

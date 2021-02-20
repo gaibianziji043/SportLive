@@ -1,4 +1,4 @@
-package com.fentao.tech.wwtplayer.widget.component;
+package com.fentao.tech.sportlive.widget.component;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -22,7 +22,7 @@ import com.fentao.tech.player_java.player.VideoView;
 import com.fentao.tech.player_java.utils.L;
 import com.fentao.tech.player_java.utils.PlayerUtils;
 import com.fentao.tech.player_ui.component.VodControlView;
-import com.fentao.tech.wwtplayer.R;
+import com.fentao.tech.sportlive.R;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
