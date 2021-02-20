@@ -1,0 +1,78 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        api_test {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        pre_release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // okhttp3
+    api 'com.squareup.okhttp3:okhttp:3.13.1'
+    api 'com.blankj:utilcode:1.23.7'
+    api "com.squareup.retrofit2:retrofit:2.4.0"
+    api "com.squareup.retrofit2:converter-gson:2.4.0"
+    api "com.squareup.retrofit2:adapter-rxjava2:2.4.0"
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    api 'com.trello.rxlifecycle2:rxlifecycle:2.2.2'
+    api 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.2'
+    annotationProcessor  'androidx.lifecycle:lifecycle-compiler:2.0.0'
+    api 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    api 'com.afollestad.material-dialogs:core:0.9.4.5'
+    api 'com.afollestad.material-dialogs:commons:0.9.4.5'
+    api 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
+
+    // androidX
+    api 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:4.0.0'
+    api 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:4.0.0'
+    api 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-viewpager2:4.0.0'
+
+
+    // 友盟SDK
+//    api files('libs/umeng-analytics-8.1.4.jar')
+    api files('libs/umeng-common-9.3.2.jar')
+//    api files('libs/umeng-common-2.1.8.jar')
+  //  api files('libs/utdid4all-1.1.5.3_proguard.jar')
+  //  api files('libs/SecurityEnvSDK-release-1.1.0.jar')
+
+    // support v7 RecycleView
+//    api 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0'
+//    api 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0'
+}

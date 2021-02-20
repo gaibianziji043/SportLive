@@ -13,6 +13,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/exo_player" />
+            <option value="$PROJECT_DIR$/lib_common" />
+            <option value="$PROJECT_DIR$/lib_coremodel" />
+            <option value="$PROJECT_DIR$/lib_opensource" />
             <option value="$PROJECT_DIR$/player_java" />
             <option value="$PROJECT_DIR$/player_ui" />
           </set>

@@ -1,0 +1,82 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    def MD5_KEY_DEBUGER = "\"MXizAUL5\""
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+
+            buildConfigField("String", "MD5_KEY", "${MD5_KEY_DEBUGER}")
+        }
+
+        api_test {
+            debuggable true
+            minifyEnabled false
+
+            buildConfigField("String", "MD5_KEY", "${MD5_KEY_DEBUGER}")
+        }
+
+        pre_release {
+            buildConfigField("String", "MD5_KEY", "${MD5_KEY_DEBUGER}")
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            buildConfigField("String", "MD5_KEY", "${MD5_KEY_DEBUGER}")
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled true
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha08'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    api 'com.github.bumptech.glide:glide:4.8.0'
+    api 'com.github.bumptech.glide:annotations:4.8.0'
+    annotationProcessor  'com.github.bumptech.glide:compiler:4.8.0'
+    api 'com.github.bumptech.glide:okhttp3-integration:4.8.0'
+    api project(':lib_opensource')
+    implementation 'org.apache.commons:commons-lang3:3.7'
+
+    api 'com.scwang.smart:refresh-layout-kernel:2.0.0-alpha-1' //核心必须依赖
+    api 'com.scwang.smart:refresh-header-material:2.0.0-alpha-1'
+    implementation 'org.jetbrains:annotations:15.0'//谷歌刷新头
+}

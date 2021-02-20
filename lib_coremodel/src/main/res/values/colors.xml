@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E6398</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="orange">#FFA500</color>
+
+    <array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array>
+    <color name="color_333">#333333</color>
+    <color name="color_list_head">#FAFAFA</color>
+    <color name="color_9A">#9A9A9A</color>
+    <color name="color_red">#F8463B</color>
+    <color name="color_f4">#F4F4F4</color>
+    <color name="color_e">#EEEEEE</color>
+    <color name="color_ac">#80ACACAC</color>
+    <color name="color_acac">#ACACAC</color>
+    <color name="color_af">#80AFAFAF</color>
+
+    <color name="color_ED">#EDEDED</color>
+    <color name="color_2E">#2E6398</color>
+    <color name="color_33">#333333</color>
+    <color name="color_87">#878787</color>
+    <color name="translant">#00ffffff</color>
+    <color name="color_80ff">#80ffffff</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_f67133">#f67133</color>
+
+    <color name="colorBackground">#FB5B81</color>
+    <color name="colorLoadingBgWei">#a5000000</color>
+    <color name="colorLoadingTextWeiBo">#f0f0f0</color>
+    <color name="colorLoadingBg">#f5ffffff</color>
+    <color name="colorLoadingText">#393939</color>
+
+</resources>

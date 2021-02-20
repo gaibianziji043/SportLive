@@ -1,0 +1,3 @@
+#本lib主要是引用第三方的库
+#所有第三方库放到本module中统一管理
+#本module被lib_coremodel依赖

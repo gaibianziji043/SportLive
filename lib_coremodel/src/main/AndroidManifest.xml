@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ft.base.net" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application>
+       <!-- <meta-data android:name="com.ft.base.utils.GlideConfiguration"
+            android:value="GlideModule"/>-->
+        <!--<activity
+            android:name="com.ft.sports.base.ContainerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"></activity>-->
+    </application>
+
+
+</manifest>
