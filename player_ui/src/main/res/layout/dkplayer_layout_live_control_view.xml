@@ -3,6 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="@dimen/dkplayer_controller_height"
+        android:layout_height="@dimen/dkplayer_controller_height"
+        android:padding="@dimen/dkplayer_controller_icon_padding"
+        android:src="@drawable/dkplayer_seletcor_share_button"
+        android:layout_gravity="end"
+        />
+
     <LinearLayout
         android:id="@+id/bottom_container"
         android:layout_width="match_parent"
@@ -25,11 +35,40 @@
             android:layout_height="@dimen/dkplayer_controller_height"
             android:padding="@dimen/dkplayer_controller_icon_padding"
             android:src="@drawable/dkplayer_ic_action_autorenew" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dkplayer_controller_height"
+            android:padding="@dimen/dkplayer_controller_icon_padding"
+            android:text="热度77433"
+            android:textColor="@color/cardview_light_background"
+            />
+
+
 
         <Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/resolution"
+            android:layout_width="@dimen/dkplayer_controller_height"
+            android:layout_height="@dimen/dkplayer_controller_height"
+            android:textSize="12sp"
+            android:text="标清"
+            android:gravity="center"
+            android:textColor="@color/cardview_light_background"
+            />
+
+        <ImageView
+            android:id="@+id/projection"
+            android:layout_width="@dimen/dkplayer_controller_height"
+            android:layout_height="@dimen/dkplayer_controller_height"
+            android:padding="@dimen/dkplayer_controller_icon_padding"
+            android:src="@drawable/dkplayer_seletcor_airplay_button"
+            />
+
 
         <ImageView
             android:id="@+id/fullscreen"

@@ -10,6 +10,8 @@ import android.view.animation.Animation;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,6 +33,10 @@ public class LiveControlView extends FrameLayout implements IControlComponent, V
     private ImageView mFullScreen;
     private LinearLayout mBottomContainer;
     private ImageView mPlayButton;
+
+    private TextView mResolution;
+    private ImageView mProjection;
+    private ImageView share;
 
     public LiveControlView(@NonNull Context context) {
         super(context);
@@ -55,6 +61,13 @@ public class LiveControlView extends FrameLayout implements IControlComponent, V
         mPlayButton.setOnClickListener(this);
         ImageView refresh = findViewById(R.id.iv_refresh);
         refresh.setOnClickListener(this);
+
+        mResolution = findViewById(R.id.resolution);
+        mProjection = findViewById(R.id.projection);
+        share = findViewById(R.id.share);
+        mResolution.setOnClickListener(this);
+        mProjection.setOnClickListener(this);
+        share.setOnClickListener(this);
     }
 
     @Override
@@ -154,6 +167,12 @@ public class LiveControlView extends FrameLayout implements IControlComponent, V
             mControlWrapper.togglePlay();
         } else if (id == R.id.iv_refresh) {
             mControlWrapper.replay(true);
+        }else if(id == R.id.resolution){
+            Toast.makeText(getContext(),"点击了标清",Toast.LENGTH_SHORT).show();
+        }else if(id == R.id.projection){
+            Toast.makeText(getContext(),"点击了投屏",Toast.LENGTH_SHORT).show();
+        }else if(id == R.id.share){
+            Toast.makeText(getContext(),"点击了分享",Toast.LENGTH_SHORT).show();
         }
     }
 
