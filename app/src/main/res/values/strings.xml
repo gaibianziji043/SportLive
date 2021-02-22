@@ -12,4 +12,5 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="str_fullscreen_directly">直接进入全屏播放</string>
 </resources>

@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SportLive"
         android:usesCleartextTraffic="true">
+        <activity android:name=".ui.home.FullScreenActivity"></activity>
         <activity
             android:name=".ui.home.PlayerActivity"
-            android:theme="@style/Theme.SportLive.NoActionBar"
-            ></activity>
+            android:theme="@style/Theme.SportLive.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"

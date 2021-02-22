@@ -1,8 +1,8 @@
 package com.fentao.tech.sportlive.ui.home
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 import com.fentao.tech.player_java.player.AbstractPlayer
 import com.fentao.tech.player_java.player.VideoView
 import com.fentao.tech.player_java.utils.L
@@ -200,6 +200,11 @@ class PlayerActivity : AppCompatActivity() {
             }
         }
 
-
+    override fun onDestroy() {
+        super.onDestroy()
+        if (mVideoView != null) {
+            mVideoView!!.release()
+        }
+    }
 
 }

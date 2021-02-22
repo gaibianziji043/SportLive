@@ -30,6 +30,12 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        root.findViewById(R.id.btn_vod).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),FullScreenActivity.class));
+            }
+        });
 
 
         return root;
