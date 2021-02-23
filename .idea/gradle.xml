@@ -12,12 +12,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/exo_player" />
+            <option value="$PROJECT_DIR$/dkplayer-java" />
+            <option value="$PROJECT_DIR$/dkplayer-players" />
+            <option value="$PROJECT_DIR$/dkplayer-players/exo" />
+            <option value="$PROJECT_DIR$/dkplayer-players/ijk" />
+            <option value="$PROJECT_DIR$/dkplayer-ui" />
             <option value="$PROJECT_DIR$/lib_common" />
             <option value="$PROJECT_DIR$/lib_coremodel" />
             <option value="$PROJECT_DIR$/lib_opensource" />
-            <option value="$PROJECT_DIR$/player_java" />
-            <option value="$PROJECT_DIR$/player_ui" />
+            <option value="$PROJECT_DIR$/versionLib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

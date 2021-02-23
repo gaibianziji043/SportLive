@@ -3,11 +3,11 @@ package com.fentao.tech.sportlive.ui.home
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import com.fentao.tech.player_java.player.AbstractPlayer
-import com.fentao.tech.player_java.player.VideoView
-import com.fentao.tech.player_java.utils.L
-import com.fentao.tech.player_ui.StandardVideoController
-import com.fentao.tech.player_ui.component.*
+import com.dueeeke.videocontroller.StandardVideoController
+import com.dueeeke.videocontroller.component.*
+import com.dueeeke.videoplayer.player.AbstractPlayer
+import com.dueeeke.videoplayer.player.VideoView
+
 import com.fentao.tech.sportlive.R
 import com.fentao.tech.sportlive.widget.component.DebugInfoView
 import com.fentao.tech.sportlive.widget.component.PlayerMonitor
@@ -183,8 +183,8 @@ class PlayerActivity : AppCompatActivity() {
                     VideoView.STATE_PLAYING -> {
                         //需在此时获取视频宽高
                         val videoSize: IntArray? = mVideoView?.getVideoSize()
-                        L.d("视频宽：" + videoSize!![0])
-                        L.d("视频高：" + videoSize[1])
+//                        L.d("视频宽：" + videoSize!![0])
+//                        L.d("视频高：" + videoSize[1])
                     }
                     VideoView.STATE_PAUSED -> {
                     }

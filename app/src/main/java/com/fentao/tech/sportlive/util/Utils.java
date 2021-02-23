@@ -4,10 +4,9 @@ import android.view.View;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
 
-
-import com.fentao.tech.player_java.player.VideoView;
-import com.fentao.tech.player_java.player.VideoViewConfig;
-import com.fentao.tech.player_java.player.VideoViewManager;
+import com.dueeeke.videoplayer.player.VideoView;
+import com.dueeeke.videoplayer.player.VideoViewConfig;
+import com.dueeeke.videoplayer.player.VideoViewManager;
 
 import java.lang.reflect.Field;
 

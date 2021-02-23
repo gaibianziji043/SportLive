@@ -1,8 +1,10 @@
+include ':dkplayer-players:ijk'
+include ':dkplayer-players:exo'
+include ':dkplayer-ui'
+include ':dkplayer-java'
+include ':versionLib'
 include ':lib_common'
 include ':lib_coremodel'
 include ':lib_opensource'
-include ':player_ui'
-include ':player_java'
-include ':exo_player'
 include ':app'
 rootProject.name = "SportLive"

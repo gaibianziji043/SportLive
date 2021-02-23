@@ -5,9 +5,9 @@ import android.view.animation.Animation;
 
 import androidx.annotation.NonNull;
 
-import com.fentao.tech.player_java.controller.ControlWrapper;
-import com.fentao.tech.player_java.controller.IControlComponent;
-import com.fentao.tech.player_java.utils.L;
+import com.dueeeke.videoplayer.controller.ControlWrapper;
+import com.dueeeke.videoplayer.controller.IControlComponent;
+import com.dueeeke.videoplayer.util.L;
 import com.fentao.tech.sportlive.util.Utils;
 
 

@@ -17,11 +17,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-
-import com.fentao.tech.player_java.player.VideoView;
-import com.fentao.tech.player_java.utils.L;
-import com.fentao.tech.player_java.utils.PlayerUtils;
-import com.fentao.tech.player_ui.component.VodControlView;
+import com.dueeeke.videocontroller.component.VodControlView;
+import com.dueeeke.videoplayer.player.VideoView;
+import com.dueeeke.videoplayer.util.L;
+import com.dueeeke.videoplayer.util.PlayerUtils;
 import com.fentao.tech.sportlive.R;
 
 import java.util.ArrayList;

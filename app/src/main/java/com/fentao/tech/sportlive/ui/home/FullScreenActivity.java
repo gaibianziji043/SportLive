@@ -8,15 +8,15 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.fentao.tech.player_java.player.VideoView;
-import com.fentao.tech.player_java.utils.PlayerUtils;
-import com.fentao.tech.player_ui.StandardVideoController;
-import com.fentao.tech.player_ui.component.CompleteView;
-import com.fentao.tech.player_ui.component.ErrorView;
-import com.fentao.tech.player_ui.component.GestureView;
-import com.fentao.tech.player_ui.component.PrepareView;
-import com.fentao.tech.player_ui.component.TitleView;
-import com.fentao.tech.player_ui.component.VodControlView;
+import com.dueeeke.videocontroller.StandardVideoController;
+import com.dueeeke.videocontroller.component.CompleteView;
+import com.dueeeke.videocontroller.component.ErrorView;
+import com.dueeeke.videocontroller.component.GestureView;
+import com.dueeeke.videocontroller.component.PrepareView;
+import com.dueeeke.videocontroller.component.TitleView;
+import com.dueeeke.videocontroller.component.VodControlView;
+import com.dueeeke.videoplayer.player.VideoView;
+import com.dueeeke.videoplayer.util.PlayerUtils;
 import com.fentao.tech.sportlive.R;
 import com.fentao.tech.sportlive.util.DataUtil;
 

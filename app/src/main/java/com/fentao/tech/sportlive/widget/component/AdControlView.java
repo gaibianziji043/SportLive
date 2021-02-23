@@ -13,10 +13,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.fentao.tech.player_java.controller.ControlWrapper;
-import com.fentao.tech.player_java.controller.IControlComponent;
-import com.fentao.tech.player_java.player.VideoView;
-import com.fentao.tech.player_java.utils.PlayerUtils;
+import com.dueeeke.videoplayer.controller.ControlWrapper;
+import com.dueeeke.videoplayer.controller.IControlComponent;
+import com.dueeeke.videoplayer.player.VideoView;
+import com.dueeeke.videoplayer.util.PlayerUtils;
 import com.fentao.tech.sportlive.R;
 
 

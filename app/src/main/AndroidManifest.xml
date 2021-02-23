@@ -3,14 +3,18 @@
     package="com.fentao.tech.sportlive">
 
     <application
+        android:name=".app.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_permission_config"
         android:theme="@style/Theme.SportLive"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ui.home.FullScreenActivity"></activity>
+
+
+        <activity android:name=".ui.home.FullScreenActivity" />
         <activity
             android:name=".ui.home.PlayerActivity"
             android:theme="@style/Theme.SportLive.NoActionBar" />

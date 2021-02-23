@@ -13,10 +13,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.content.ContextCompat;
 
-import com.fentao.tech.exo_player.ExoMediaPlayerFactory;
-import com.fentao.tech.player_java.controller.ControlWrapper;
-import com.fentao.tech.player_java.controller.IControlComponent;
-import com.fentao.tech.player_java.player.AndroidMediaPlayerFactory;
+import com.dueeeke.videoplayer.controller.ControlWrapper;
+import com.dueeeke.videoplayer.controller.IControlComponent;
+import com.dueeeke.videoplayer.exo.ExoMediaPlayerFactory;
+import com.dueeeke.videoplayer.player.AndroidMediaPlayerFactory;
 import com.fentao.tech.sportlive.util.Utils;
 
 
