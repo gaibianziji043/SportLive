@@ -31,7 +31,7 @@
 <!--        app:srcCompat="@android:drawable/ic_dialog_email" />-->
 
 
-    <com.fentao.tech.player_java.player.VideoView
+    <com.dueeeke.videoplayer.player.VideoView
         android:id="@+id/player"
         android:layout_width="match_parent"
         android:layout_height="250dp"
